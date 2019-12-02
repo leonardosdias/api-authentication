@@ -18,6 +18,7 @@ mongoose.connect('mongodb+srv://root:root@node-rest-kw9fc.mongodb.net/test?retry
     });
 
 require("./src/controllers/authController")(app);
+require("./src/controllers/projectController")(app);
 
 app.listen(3001);
 
